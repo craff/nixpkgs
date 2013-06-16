@@ -2738,6 +2738,8 @@ let
 
     mldonkey = callPackage ../applications/networking/p2p/mldonkey { };
 
+    mlgmp =  callPackage ../development/ocaml-modules/mlgmp { };
+
     ocaml_batteries = callPackage ../development/ocaml-modules/batteries {
       camomile = camomile_0_8_2;
     };
